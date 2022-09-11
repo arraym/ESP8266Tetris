@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "KiCadCustom")(type "KiCad")(uri "${KICAD_WORKSPACE}/GlobalLibrary/KiCadCustom.kicad_sym")(options "")(descr ""))
+)
