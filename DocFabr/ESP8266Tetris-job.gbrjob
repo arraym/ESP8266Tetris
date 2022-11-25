@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7)"
     },
-    "CreationDate": "2022-10-06T21:29:34+03:00"
+    "CreationDate": "2022-11-25T21:54:24+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,54 +34,15 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "ESP8266Tetris-F_Cu.gbr",
-      "FileFunction": "Copper,L1,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESP8266Tetris-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESP8266Tetris-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESP8266Tetris-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "ESP8266Tetris-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESP8266Tetris-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESP8266Tetris-F_Mask.gbr",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "ESP8266Tetris-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "ESP8266Tetris-Edge_Cuts.gbr",
-      "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Top Silk Screen"
     },
     {
@@ -90,7 +51,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -113,7 +74,7 @@
     },
     {
       "Type": "SolderMask",
-      "Color": "Green",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
@@ -123,6 +84,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Bottom Silk Screen"
     }
   ]
